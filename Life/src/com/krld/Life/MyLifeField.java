@@ -161,6 +161,45 @@ public class MyLifeField extends Actor {
                 field[((int) (x / SIZE)) - 6][((int) (y / SIZE))] = 1;
                 field[((int) (x / SIZE)) - 6][((int) (y / SIZE)) + 1] = 1;
                 field[((int) (x / SIZE)) - 7][((int) (y / SIZE)) + 1] = 1;
+            } else if (createType == 6) {       // R pentomino
+                field[((int) (x / SIZE))][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE))][((int) (y / SIZE)) + 1] = 1;
+                field[((int) (x / SIZE)) - 1][((int) (y / SIZE)) + 1] = 1;
+                field[((int) (x / SIZE))][((int) (y / SIZE)) + 2] = 1;
+                field[((int) (x / SIZE)) + 1][((int) (y / SIZE)) + 2] = 1;
+            } else if (createType == 7) {       //
+                field[((int) (x / SIZE))][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +1][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +2][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +3][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +4][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +5][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +6][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +7][((int) (y / SIZE))] = 1;
+
+                field[((int) (x / SIZE)) +9][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +10][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +11][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +12][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +13][((int) (y / SIZE))] = 1;
+
+                field[((int) (x / SIZE)) +17][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +18][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +19][((int) (y / SIZE))] = 1;
+
+                field[((int) (x / SIZE)) +26][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +27][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +28][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +29][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +30][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +31][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +32][((int) (y / SIZE))] = 1;
+
+                field[((int) (x / SIZE)) +34][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +35][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +36][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +37][((int) (y / SIZE))] = 1;
+                field[((int) (x / SIZE)) +38][((int) (y / SIZE))] = 1;
             }
         } catch (ArrayIndexOutOfBoundsException e) {
             Log.e(DEBUG_TAG, "HIT " + x + " " + y + " xy " + ((int) (x / SIZE)) + " " + ((int) (y / SIZE)));

@@ -12,6 +12,6 @@ public class StartActivity extends AndroidApplication {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initialize(new Game(), false);
-        setContentView(R.layout.main);
+        //setContentView(R.layout.main);
     }
 }

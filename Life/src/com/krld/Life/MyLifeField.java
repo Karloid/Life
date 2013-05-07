@@ -21,7 +21,7 @@ import java.lang.reflect.Array;
 public class MyLifeField extends Actor {
     public static final int HEIGHT_GAME_WINDOW = 800;
     public static final int WIDTH_GAME_WINDOW = 1040;
-    private static final int SIZE = 8;
+    private static final int SIZE = 4;
     public static final int DIMENSION_X = WIDTH_GAME_WINDOW / SIZE;
     public static final int DIMENSION_Y = HEIGHT_GAME_WINDOW / SIZE;
     public static final int SUB_BUTTON_X = SIZE * DIMENSION_X + 100;
